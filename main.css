@@ -1,0 +1,17 @@
+footer {
+  background-color: black;
+  color: white;
+}
+
+.socialMedia {
+  display: flex;
+  list-style-type: none;
+}
+
+.socialMediaLinks {
+  flex-direction: row;
+  flex-basis: 25%;
+  margin: 5px;
+  justify-content: space-evenly;
+}
+
