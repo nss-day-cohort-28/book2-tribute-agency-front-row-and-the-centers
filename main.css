@@ -1,0 +1,28 @@
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: white;
+}
+
+.nav--ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.nav--ul li {
+  padding: 0 0 0 10px;
+}
+
+.nav--ul:last-child {
+  padding: 0 20px 0 0;
+}
+
+.nav--ul li a {
+  text-decoration: none;
+}
