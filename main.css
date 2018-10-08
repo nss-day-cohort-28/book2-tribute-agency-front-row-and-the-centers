@@ -1,5 +1,5 @@
 body {
   width: 90%;
   margin: 0 auto 0 auto;
-  border: 1px solid gray;
+  border: 1px solid gray; /* Temporary just to show edge of content */
 }
