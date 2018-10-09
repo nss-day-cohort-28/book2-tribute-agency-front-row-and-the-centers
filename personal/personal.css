@@ -1,0 +1,93 @@
+/* horizontal rule styling */
+
+hr {
+  width: 40%;
+  margin: 40px auto;
+  display:block;
+  border:none;
+  color:white;
+  height:1px;
+  background:white;
+  background: -webkit-gradient(radial, 50% 50%, 350, 50% 50%, 0, from(#000), to(lightgray));
+}
+
+/* h1 styling */
+
+h1 {
+  padding: 20px 0 0 0;
+}
+
+/* main div */
+
+.personal-life {
+  text-align: center;
+}
+
+.personal-life a {
+
+}
+
+.personal-life ul {
+  list-style: none;
+}
+
+/* life facts section */
+
+.personal-stats {
+  margin: 40px 0;
+  background-color: #800000;
+  padding: 20px 0;
+}
+
+/* overall family section */
+
+.personal-family {
+  margin: 40px 0;
+  background-color: #800000;
+  padding: 20px 0;
+}
+
+/* wives section */
+
+.section-wives {
+  margin: 20px 10px 40px 10px;
+}
+
+.wives {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.wives-gallery {
+  flex-basis: 33%;
+}
+
+.wives img {
+  width: 200px;
+  height: 200px;
+}
+
+/* children section */
+
+.section-children {
+  margin: 20px 10px 20px 10px;
+}
+
+.children {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.children-gallery {
+  flex-basis: 15%;
+}
+
+.children img {
+  width: 120px;
+  height: 120px;
+}
+
