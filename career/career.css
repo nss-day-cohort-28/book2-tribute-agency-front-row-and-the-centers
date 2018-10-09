@@ -20,34 +20,173 @@ h1, h2 {
   padding: 10px;
 }
 
-
-/* Slideshow container */
-.slideshow-container{
-  max-width: 980px;
+.container{
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
   position: relative;
-  margin: auto;
-  display: flex;
-  overflow: hidden;
+  perspective: 1000px;
 }
 
-/* Insert Opaqe layer over images by default*/ 
+.slideshow-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
 .slideshow-slide{
-  opacity: 0.5;
-  margin: 10px;
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg)translateZ(200px);
+}
+.b{
+  transform: rotateY(60deg)translateZ(200px);
+}
+.c{
+  transform: rotateY(120deg)translateZ(200px);
+}
+.d{
+  transform: rotateY(180deg)translateZ(200px);
+}
+.e{
+  transform: rotateY(240deg)translateZ(200px);
+}
+.f{
+  transform: rotateY(300deg)translateZ(200px);
+}
+.g{
+  transform: rotateY(360deg)translateZ(200px);
+}
+
+.next, .prev {
+  color: #444;
+  position: absolute;
+  top: 100px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: #CCC;
+  border-radius: 5px;
+  border-top: 1px solid #FFF;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+.next:hover, .prev:hover { color: #000; }
+.next:active, .prev:active {
+  top: 104px;
+  box-shadow: 0 1px 0 #999;
+}
+.next { right: 5em; }
+.prev { left: 5em; }
+
+/* Slideshow container */
+/* $n: 13; Number of images */
+/* $item-width: 200px; Width of an image. */
+/* $item-separation: 80px; The space between the images. This will decrease the effective item width */
+/* $viewer-distance: 500px; */
+/* Derived Variable */
+/* $theta: 2 * 3.141562653589793/ $n; */
+/* $apothem: 405.715948564; == $item-width / (2 * tan(PI / $n)) */
+/* 
+.slideshow-container{
+  max-width: 980px;
+  perspective: $viewer-distance; */
+  /* position: relative; */
+  /* margin: auto; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  > * {
+    flex: 0 0 auto;
+  }
+  figure {
+    margin: 0;
+
+    width: $item-width;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    transform-origin: 50% 50% (-$apothem);
+
+    img {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 $item-separation / 2;
+      opacity: 0.9;
+
+      &:not(:first-of-type){
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform-origin: 50% 50% (-$apothem);
+      }
+      @for $i from 2 through $n {
+        &:nth-child(#{$1}) {
+          transform: rotateY(#{($i - 1)* $theta}rad);
+        }
+      }
+    }
+  }
+} */
+
+/* .figure {
+  width: 200px;
+  transform-style: preserve-3d;
+  img{
+    width: 100%;
+    &:not(:first-of-type){
+      display: none;
+    }
+  }
+}
+
+.carousel figure {
+  transform: rotate(some amount hererad); 
+/* }
+
+.carousel figure img:not(:first-of-type){
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.img:not(:first-of-type) {
+  transform-origin: 50% 50% (-$apothem);
+}
+
+.carousel figure img {
+  @for $i from 2 through $n {
+    &:nth-child(#{$i}) {
+      transform: rotateY(#{($i - 1)* $theta}rad);
+    }
+  }
+} */ 
+
+/* Insert Opaqe layer over images by default*/ 
+/* .slideshow-slide{ */
+  /* opacity: 0.5; */
+  /* margin: 10px;
   display: flex;
   flex-basis: 25%;
   position: relative;
-  /* display: none; */
-}
+} */
 
-.slideshow-slide img{
+/* .slideshow-slide img{
   width: 200px;
   height: 200px;
-  z-index: -2;
-}
+} */
 
 /* Next & previous buttons */
-.prev, .next {
+/* .previous, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -59,21 +198,21 @@ h1, h2 {
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-}
+} */
 
 /* Position the "next button" to the right */
-.next{
+/* .next{
   right: 0;
   border-radius: 3px 0 0 3px;
-}
+} */
 
 /* On hover, add a black background color with a slight transparency */
-.prev:hover, .next:hover{
+/* .previous:hover, .next:hover{
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Slide in overlay with caption text */
-.slideshow-overlay{
+/* .slideshow-overlay{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -84,21 +223,16 @@ h1, h2 {
   width: 200px;
   height: 0;
   transition: .5s ease;
-  z-index: -1;
-}
-
-.slideshow-text:hover{
   color: black;
   font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   text-align: center;
-  z-index: 100;
-  opacity: 1;
-}
+  vertical-align: middle;
+} */
+ 
+/* .slideshow-overlay p{
+  margin-top: 90px;
+} 
 
 .slideshow-slide:hover .slideshow-overlay{
   height: 100%;
-  display: inline;
-}
+} */ 
