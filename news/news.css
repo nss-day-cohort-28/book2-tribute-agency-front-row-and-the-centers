@@ -1,61 +1,59 @@
+/* page and card heading styles */
 h1 {
   display: flex;
   justify-content: center;
 }
 
- /* h2 {
-  padding: 5px;
-} */
 h4 {
   padding: 0px;
 } 
+
+/* card text styles */
+
 section p {
  margin: 0 0 16px 0;
 }
 
-/* .news--cards {
+.card--text { 
   display: flex;
-  flex-wrap: wrap;
-  flex-basis: 10%;
-  border: 1px red solid;
+  flex-direction: column;
+  margin: 5px;
 }
 
-.news--cards .card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 50%; 
- } */
-
-.card--text {
-  border: 1px solid green;  
+.cardFreshen .card--text {
+  padding: 0 0 0 20px;
 }
 
-/*.card--content {
-  display: flex;
-  justify-content: space-between;
-} */ 
+.cardReunion .card--text {
+  padding: 0 0 0 20px;
+}
 
+.cardAustin .card--text {
+  padding: 0 20px 0 0;
+}
+.cardSign .card--text {
+  padding: 0 20px 0 0;
+}
+
+/* card image styles */
 section img {
   height: 250px;
   width: auto;
  }
  
  .freshen_up_img {
-   width: 420px;
+   width: 430px;
    height: 310px;
  }
+ .cardSign img {
+   padding:8px 0 0 0;
+ }
 
-/* .card1 {
-  border: 5px solid navy;
-} */
-
-.card--text {
-  display: flex;
-  flex-direction: column;
-}
+/* card styles */
 
 .card {
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  margin: 2px;
 } 
