@@ -39,6 +39,7 @@ body {
 
 .nav--ul li a {
   text-decoration: none;
+  color: white;
 }
 
 /* Footer and Social media icons */
