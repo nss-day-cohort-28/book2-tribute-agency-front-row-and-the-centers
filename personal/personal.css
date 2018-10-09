@@ -1,48 +1,65 @@
+h1 {
+  padding: 20px 0 0 0;
+}
+
 .personal-life {
   text-align: center;
+  /* remove when global body color is added */
+  background-color: #400000;
+  color: lightgray;
+}
+
+.personal-life a {
+  color: lightgray;
+}
+
+.personal-life ul {
+  list-style: none;
 }
 
 .personal-stats {
   margin: 40px 0;
+  background-color: #800000;
+  padding: 20px 0;
 }
 
 .personal-family {
   margin: 40px 0;
-  border: 1px solid blue;
+  background-color: #800000;
+  padding: 20px 0;
 }
 
-.personal-stats ul {
-  list-style: none;
+.wives {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
 }
 
-.personal-family img {
+.wives-gallery {
+  flex-basis: 33%;
+}
+
+.wives img {
   width: 200px;
   height: 200px;
+  border: 1px solid lightgray;
 }
 
-.personal-family ul {
+.children {
   display: flex;
-  flex-wrap: wrap;
-  list-style: none;
   justify-content: center;
-}
-
-.personal-life section {
-  border: 1px solid red;
-}
-
-.section-wives {
+  align-content: space-around;
   flex-wrap: wrap;
 }
 
-.section-children {
-  flex-wrap: wrap;
+.children-gallery {
+  flex-basis: 15%;
 }
 
-.wives li {
-  width: 33%;
+.children img {
+  width: 120px;
+  height: 120px;
+  border: 1px solid lightgray;
 }
 
-.children li {
-  width: 19%;
-}
