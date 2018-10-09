@@ -35,7 +35,7 @@ h1 {
 
 .personal-stats {
   margin: 40px 0;
-  background-color: #800000;
+  background-color: lightgray;
   padding: 20px 0;
 }
 
@@ -43,7 +43,7 @@ h1 {
 
 .personal-family {
   margin: 40px 0;
-  background-color: #800000;
+  background-color: lightgray;
   padding: 20px 0;
 }
 
