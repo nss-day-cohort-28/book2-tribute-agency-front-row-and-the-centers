@@ -1,0 +1,102 @@
+/* Potrait section */
+.portraitImg, h1, .portraitList {
+  display: block;
+  margin: 10px auto;
+}
+
+.portraitImg {
+  width: 75%;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 40px;
+  border-bottom: 2px solid black;
+}
+
+h1, .portraitList {
+  text-align: center;
+  list-style: none;
+  padding: 5px;
+  width: 35%;
+}
+
+.portName1 {
+  opacity: 0.65;
+}
+
+.portName2 {
+  opacity: 0.50;
+}
+
+.portName3 {
+  opacity: 0.35;
+}
+
+.portName4 {
+  opacity: 0.20;
+}
+
+/* Collaborators section */
+
+.contain {
+  text-align: center;
+}
+
+.collabH2 {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 500px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.collabCollect {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.collabDiv {
+  border: 2px solid black;
+
+}
+
+.collabImg {
+  height: 200px;
+  width: 200px;
+}
+
+.collabName {
+  text-align: center;
+}
+
+
+
+/* Birthplace */
+.birth {
+  margin-top: 50px;
+}
+.birthPlace {
+  text-align: center;
+}
+
+.birthPlaceH2 {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 500px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.birthImg {
+  border: 2px solid black;
+  display: block;
+  margin: 10px auto;
+  width: 75%;
+}
+
+.birthLi {
+  text-align: center;
+  list-style: none;
+  padding: 5px;
+}
