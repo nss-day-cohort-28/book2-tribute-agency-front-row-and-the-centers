@@ -22,18 +22,23 @@ h1, h2 {
 
 .container{
   margin: 0 auto;
-  width: 250px;
-  height: 200px;
+  width: 980px;
+  height: 300px;
   position: relative;
   perspective: 1000px;
 }
 
 .slideshow-container {
   height: 100%;
-  width: 100%;
+  width: 50%;
   position: absolute;
+  align-content: center;
+  margin: auto;
   transform-style: preserve-3d;
   transition: transform 1s;
+  padding-left:400px;
+  padding-top: 50px;
+  vertical-align: middle;
 }
 
 .slideshow-slide{
@@ -44,6 +49,7 @@ h1, h2 {
   height: 200px;
   line-height: 200px;
   border-radius: 10px;
+
 }
 
 .a {
