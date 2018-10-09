@@ -1,5 +1,10 @@
+* {
+  /*  global reset  */
+  box-sizing: border-box;
+}
+
 body {
-  width: 90%;
-  margin: 0 auto 0 auto;
-  border: 1px solid gray; /* Temporary just to show edge of content */
+  max-width: 980px;  /* changed from width: 90%; */
+  margin: 0 auto;
+  border: 1px solid gray; /* Temporary to show main content area */
 }
