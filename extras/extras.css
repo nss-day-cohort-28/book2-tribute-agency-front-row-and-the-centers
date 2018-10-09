@@ -1,15 +1,7 @@
 
-/* .extrasMainContent {
-
-}
-
-.extrasMainContent__section--resources {
-
-} */
-
 .extrasMainContent__img {
   max-width: 200px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .extrasMainContent__cardgroup {
@@ -17,19 +9,18 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .extrasMainContent__card {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   flex-basis: 20%;
   padding: 1em;
   margin-top: 1em;
+  text-align: center;
 }
 
-.extrasMainContent__img {
-  max-width: 200px;
-  border: 1px solid green;
-}
+
+
 
 
