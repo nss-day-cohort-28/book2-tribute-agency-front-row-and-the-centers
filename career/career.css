@@ -1,0 +1,104 @@
+h1, h2 {
+  text-align: center;
+}
+
+/* Intro Info Flexbox Layout */
+.career{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.career-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  flex-basis: 30%;
+  padding: 10px;
+}
+
+
+/* Slideshow container */
+.slideshow-container{
+  max-width: 980px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+/* Insert Opaqe layer over images by default*/ 
+.slideshow-slide{
+  opacity: 0.5;
+  margin: 10px;
+  display: flex;
+  flex-basis: 25%;
+  position: relative;
+  /* display: none; */
+}
+
+.slideshow-slide img{
+  width: 200px;
+  height: 200px;
+  z-index: -2;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a slight transparency */
+.prev:hover, .next:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Slide in overlay with caption text */
+.slideshow-overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  opacity: 1;
+  overflow: hidden;
+  width: 200px;
+  height: 0;
+  transition: .5s ease;
+  z-index: -1;
+}
+
+.slideshow-text:hover{
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  z-index: 100;
+  opacity: 1;
+}
+
+.slideshow-slide:hover .slideshow-overlay{
+  height: 100%;
+  display: inline;
+}
