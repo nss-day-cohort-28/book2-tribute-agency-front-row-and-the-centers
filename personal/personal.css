@@ -19,8 +19,13 @@ h1 {
 
 /* main div */
 
+img {
+  border: 5px solid lightgray;
+}
+
 .personal-life {
   text-align: center;
+  background-color: lightgray;
 }
 
 .personal-life a {
@@ -35,7 +40,7 @@ h1 {
 
 .personal-stats {
   margin: 40px 0;
-  background-color: lightgray;
+  background-color: white;
   padding: 20px 0;
 }
 
@@ -43,7 +48,7 @@ h1 {
 
 .personal-family {
   margin: 40px 0;
-  background-color: lightgray;
+  background-color: white;
   padding: 20px 0;
 }
 
