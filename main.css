@@ -6,12 +6,21 @@ footer {
 .socialMedia {
   display: flex;
   list-style-type: none;
+  flex-basis: 25%;
+  justify-content: center;
 }
 
-.socialMediaLinks {
+footer > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  padding-bottom: 5px;
+}
+
+.socialMediaIcons {
+  height: 50px;
+  width: 50px;
   flex-direction: row;
   flex-basis: 25%;
   margin: 5px;
-  justify-content: space-evenly;
 }
-
