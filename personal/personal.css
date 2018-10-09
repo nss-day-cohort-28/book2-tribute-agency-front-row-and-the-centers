@@ -1,3 +1,16 @@
+.personal-life {
+  text-align: center;
+}
+
+.personal-stats {
+  margin: 40px 0;
+}
+
+.personal-family {
+  margin: 40px 0;
+  border: 1px solid blue;
+}
+
 .personal-stats ul {
   list-style: none;
 }
@@ -12,7 +25,6 @@
   flex-wrap: wrap;
   list-style: none;
   justify-content: center;
-  text-align: center;
 }
 
 .personal-life section {
