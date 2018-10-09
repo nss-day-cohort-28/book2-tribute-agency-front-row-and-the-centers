@@ -1,0 +1,36 @@
+.personal-stats ul {
+  list-style: none;
+}
+
+.personal-family img {
+  width: 200px;
+  height: 200px;
+}
+
+.personal-family ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.personal-life section {
+  border: 1px solid red;
+}
+
+.section-wives {
+  flex-wrap: wrap;
+}
+
+.section-children {
+  flex-wrap: wrap;
+}
+
+.wives li {
+  width: 33%;
+}
+
+.children li {
+  width: 19%;
+}
