@@ -1,11 +1,20 @@
+hr {
+  width: 40%;
+  margin: 40px auto;
+  display:block;
+  border:none;
+  color:white;
+  height:1px;
+  background:lightgray;
+  background: -webkit-gradient(radial, 50% 50%, 350, 50% 50%, 0, from(#000), to(lightgray));
+}
+
 h1 {
   padding: 20px 0 0 0;
 }
 
 .personal-life {
   text-align: center;
-  /* remove when global body color is added */
-  background-color: #400000;
   color: lightgray;
 }
 
@@ -29,6 +38,10 @@ h1 {
   padding: 20px 0;
 }
 
+.section-wives {
+  margin: 20px 10px 40px 10px;
+}
+
 .wives {
   display: flex;
   justify-content: center;
@@ -44,6 +57,10 @@ h1 {
   width: 200px;
   height: 200px;
   border: 1px solid lightgray;
+}
+
+.section-children {
+  margin: 20px 10px 20px 10px;
 }
 
 .children {
