@@ -5,7 +5,7 @@ hr {
   border:none;
   color:white;
   height:1px;
-  background:lightgray;
+  background:white;
   background: -webkit-gradient(radial, 50% 50%, 350, 50% 50%, 0, from(#000), to(lightgray));
 }
 
@@ -15,11 +15,10 @@ h1 {
 
 .personal-life {
   text-align: center;
-  color: lightgray;
 }
 
 .personal-life a {
-  color: lightgray;
+  
 }
 
 .personal-life ul {
@@ -56,7 +55,6 @@ h1 {
 .wives img {
   width: 200px;
   height: 200px;
-  border: 1px solid lightgray;
 }
 
 .section-children {
@@ -77,6 +75,5 @@ h1 {
 .children img {
   width: 120px;
   height: 120px;
-  border: 1px solid lightgray;
 }
 
