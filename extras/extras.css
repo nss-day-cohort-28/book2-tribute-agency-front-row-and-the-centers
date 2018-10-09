@@ -1,0 +1,27 @@
+.extrasMainContent__h2 {
+  display: inline-block;
+  margin: 0 auto 0 auto;
+
+}
+
+.extrasMainContent__cardgroup--resources {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+
+.extrasMainContent__card--resources {
+  border: 1px solid orange;
+  flex-basis: 20%;
+}
+
+.extrasMainContent__h2 {
+  align-self: flex-start;
+  border: 1px solid red; 
+}
+.extrasMainContent__img--resources {
+  max-width: 200px;
+  border: 1px solid green;
+}
+
