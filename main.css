@@ -2,11 +2,16 @@
   /*  global reset  */
   box-sizing: border-box;
 }
+html {
+  background-color: #900000;
+}
 
 body {
   max-width: 980px;  /* changed from width: 90%; */
   margin: 0 auto;
   border: 1px solid gray; /* Temporary to show main content area */
+  background-color: white;
+  font-family: sans-serif;
 }
 
 .navbar {
