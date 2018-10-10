@@ -1,0 +1,63 @@
+/* page and card heading styles */
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  padding: 0px;
+} 
+
+/* card text styles */
+
+section p {
+ margin: 0 0 16px 0;
+}
+
+.card--text { 
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.cardFreshen .card--text {
+  padding: 0 0 0 20px;
+}
+
+.cardReunion .card--text {
+  padding: 0 0 0 20px;
+}
+
+.cardAustin .card--text {
+  padding: 0 20px 0 0;
+}
+.cardSign .card--text {
+  padding: 0 20px 0 0;
+}
+
+/* card image styles */
+section img {
+  height: 250px;
+  width: auto;
+ }
+ 
+ .freshen_up_img {
+   width: 430px;
+   height: 310px;
+ }
+ .cardSign img {
+   padding:8px 0 0 0;
+ }
+
+/* card styles */
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 2px;
+} 
+ hr {
+   border: 2px solid black;
+   width:25%;
+ }
