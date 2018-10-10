@@ -1,30 +1,46 @@
 
 h1 {
   text-align: center;
+  
 }
 
 h2 {
   text-align: center;
 }
-.extrasMainContent__img {
-  max-width: 200px;
-  /* border: 1px solid green; */
+
+h3 {
+  text-align: center;
 }
 
+.extrasMainContent__section--resources p {
+  text-align: center;
+}
+
+.extrasMainContent a {
+  text-decoration: none;
+}
+
+.extrasMainContent a:visited {
+  color: black;
+}
+
+.extrasMainContent__img {
+  max-width: 200px;
+}
+
+/* Section Flex Container */
 .extrasMainContent__cardgroup {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* border: 1px solid black; */
 }
 
+/* Section Flex Item */
 .extrasMainContent__card {
-  /* border: 1px solid orange; */
   flex-basis: 20%;
   padding: 1em;
   margin-top: 1em;
-  text-align: center;
 }
 
 
