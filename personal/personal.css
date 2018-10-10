@@ -1,8 +1,8 @@
 /* horizontal rule styling */
 
 hr {
-  width: 40%;
-  margin: 40px auto;
+  margin-bottom: 20px;
+  width: 20%;
   display:block;
   border:none;
   color:white;
@@ -17,10 +17,28 @@ h1 {
   padding: 20px 0 0 0;
 }
 
+h2 {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 500px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 40px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
 /* main div */
+
+img {
+  border: 2px solid black;
+}
 
 .personal-life {
   text-align: center;
+  background-color: white;
 }
 
 .personal-life a {
@@ -34,23 +52,23 @@ h1 {
 /* life facts section */
 
 .personal-stats {
-  margin: 40px 0;
-  background-color: #800000;
+  /* margin: 40px 0; */
+  background-color: white;
   padding: 20px 0;
 }
 
 /* overall family section */
 
 .personal-family {
-  margin: 40px 0;
-  background-color: #800000;
-  padding: 20px 0;
+  /* margin: 0 0 40px 0; */
+  background-color: white;
+  /* padding: 20px 0; */
 }
 
 /* wives section */
 
 .section-wives {
-  margin: 20px 10px 40px 10px;
+  margin: 30px 10px 40px 10px;
 }
 
 .wives {
