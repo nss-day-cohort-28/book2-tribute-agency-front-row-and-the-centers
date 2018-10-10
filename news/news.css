@@ -57,3 +57,7 @@ section img {
   padding: 30px;
   margin: 2px;
 } 
+ hr {
+   border: 2px solid black;
+   width:25%;
+ }
